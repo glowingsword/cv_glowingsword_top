@@ -1,0 +1,140 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Andrei Gutu
+    tagline: Linux System Administrator
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: glowingsword@gmail.com
+    phone: +373 76 733 615
+    timezone: Europe/Chisinau
+    citizenship: Republic of Moldova
+    website: glowingsword.ru #do not add http://
+    linkedin: andrei-gutu-b54b6096
+    github: glowingsword
+    telegram: glowingsword # add your nickname without '@' sign
+    pdf: http://cv.glowingsword.ru/assets/andrei_gutu_cv.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: B2
+
+        - idiom: Russian
+          level: Native
+
+        - idiom: Romanian
+          level: Elementary
+
+    interests:
+      title: Interests
+      info:
+        - item: IT
+          link:
+
+        - item: Gaming
+          link:
+
+        - item: Traveling
+          link:
+
+career-profile:
+    title: About Me
+    summary: |
+      I live in Chisinau, Republic of Moldova🇲🇩
+
+      I am a Linux, Open Source and web-technology enthusiast.
+
+      Also I am a self-taught person, who independently caught his way into IT.
+      Many thanks for REG.RU, they believed in me and let me grow in this sphere.
+
+      I have a small freelance expirience in 2011-2012(frontend/backend/content management for CMS-based websites).
+
+      From 2013 to 2016 I have worked as a Technical Support Engineer(Level 2) in REG.RU company.
+
+      In 2016 I'm finally grew up to Linux System Administrator position.
+      And I was a good Linux System Administrator in Linux Hosting team up to end of October 2022.
+
+      My English level is Upper Intermediate (B2) and I am studying it now.
+
+      My strengths :
+        - responsible;
+        - I manage myself well;
+        - I like to documenting work procedures with some nuances to save time in the future(I like to write short notes).
+education:
+    title: Education
+    info:
+      - degree: accountant
+        university: IFM "Calea Fericirii — The way of blessings"
+        time: 2011 - 2012
+        details: |
+          I am an accountant by my education, but not in my heart(I love IT). 
+          When I was study in in this awesome place, I learned some awesome things:
+            - 10 fingers typing;
+            - basic English(10 month course and somethere bellow A2 level);
+            - advanced proficiency of Office Software on the course for clerks and office workers.
+experiences:
+    title: Experiences
+    info:
+      - role: Linux System Administrator
+        time: 2016 - 2022
+        company: REG.RU, Chisinau
+        details: |
+          Monitoring and ensuring the smooth operation of hosting servers and VPS,
+           as well as solving the problems of our clients related to the use of
+           hosting and related services.
+      - role: Technical Support Engineer
+        time: 2013 - 2016
+        company: REG.RU, Chisinau
+        details: |
+          My work responsibilities include dialogue with the client and
+           diagnosing the problems that arise during the work of the
+           customer's services, analyzing the problems found, as well
+           as taking the necessary measures to resolve them, or providing
+           appropriate recommendations to the client to solve them.
+
+skills:
+    title: Skills &amp; Proficiency
+    details: |
+      The info on graphics demonstrate only my opinion about my level of the knowledge
+       in this spheres. I always think that I'm know too little, because I want to know 
+       much more...
+    toolset:
+      - name: Linux
+        level: 95%
+
+      - name: Ansible
+        level: 15%
+
+      - name: MySQL
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 40%
+
+      - name: Git
+        level: 20%
+
+      - name: Nginx
+        level: 60%
+
+      - name: Apache
+        level: 60%
+
+      - name: Virtualisation
+        level: 50%
+
+      - name: Docker
+        level: 40%
+
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
