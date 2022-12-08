@@ -4,7 +4,7 @@
 
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Andrei Gutu
@@ -16,11 +16,13 @@ sidebar:
     phone: +373 76 733 615
     timezone: Europe/Chisinau
     citizenship: Republic of Moldova
-    website: glowingsword.ru #do not add http://
+    websites: 
+      - glowingsword.me #do not add http://
+      - docs.glowingsword.me
     linkedin: andrei-gutu-b54b6096
     github: glowingsword
     telegram: glowingsword # add your nickname without '@' sign
-    pdf: http://cv.glowingsword.ru/assets/andrei_gutu_cv.pdf
+    pdf: http://cv.glowingsword.me/assets/andrei_gutu_cv.pdf
 
     languages:
       title: Languages
@@ -45,6 +47,46 @@ sidebar:
 
         - item: Traveling
           link:
+
+    courses:
+      title: Courses
+      info:
+        - title: Database Design and Basic SQL in PostgreSQL
+          issuer: University of Michigan
+          time: 2022
+          link: https://www.coursera.org/account/accomplishments/verify/B52NT56M9YTT
+
+        - title: EF SET Standart Eglish Test
+          issuer: EF SET
+          time: 2022
+          link: https://www.efset.org/cert/1xdaPb
+
+        - title: Web Design Basics
+          issuer: Geekbrains
+          time: 2020
+          link: https://gb.ru/certificates/899100
+
+        - title: Introduction into Linux
+          issuer: Bioinformatics Institute
+          time: 2017
+          link: https://stepik.org/cert/63736
+
+        - title: Web Technologies
+          issuer: Mail.ru Group
+          time: 2016
+          link: https://stepik.org/cert/21544
+
+        - title: Introduction on the Databases
+          issuer: Stepik
+          time: 2016
+          link: https://stepik.org/cert/21544
+
+        - title: Security Analysis of the Web Projects 
+          issuer: Mail.ru Group
+          time: 2015
+          link: https://stepik.org/cert/21544
+
+
 
 career-profile:
     title: About Me
@@ -81,6 +123,18 @@ education:
             - 10 fingers typing;
             - basic English(10 month course and somethere bellow A2 level);
             - advanced proficiency of Office Software on the course for clerks and office workers.
+courses:
+    title: Education
+    info:
+      - degree: accountant
+        organization: IFM "Calea Fericirii — The way of blessings"
+        time: 2011 - 2012
+        details: |
+          I am an accountant by my education, but not in my heart(I love IT). 
+          When I was study in in this awesome place, I learned some awesome things:
+            - 10 fingers typing;
+            - basic English(10 month course and somethere bellow A2 level);
+            - advanced proficiency of Office Software on the course for clerks and office workers.
 experiences:
     title: Experiences
     info:
@@ -108,6 +162,12 @@ skills:
        in this spheres. I always think that I'm know too little, because I want to know 
        much more...
     toolset:
+      - name: Bash
+        level: 45%
+
+      - name: Python
+        level: 30%
+
       - name: Linux
         level: 95%
 
@@ -134,6 +194,18 @@ skills:
 
       - name: Docker
         level: 40%
+
+      - name: Grafana
+        level: 10%
+
+      - name: Nagios
+        level: 15%
+
+      - name: Prometheus
+        level: 10%
+
+      - name: PostgreSQL
+        level: 10%
 
 
 footer: >

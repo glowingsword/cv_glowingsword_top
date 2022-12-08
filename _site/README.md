@@ -1,1 +1,3 @@
-# cv_glowingsword_me
+# cv.glowingsword.me
+
+This is my CV's site repo.

@@ -31,10 +31,14 @@
     </li>
     {% endif %}
 
-    {% if sidebar.website %}
-    <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
-    </li>
+    {% if sidebar.websites %}
+      {% for website in sidebar.websites %}
+        <li class="website"><i class="fas fa-globe-americas"></i>
+          <a href="http://{{ website }}" target="_blank">{{ website }}</a>
+        </li>
+      {% endfor %}
+
+
     {% endif %}
 
     {% if sidebar.linkedin %}
