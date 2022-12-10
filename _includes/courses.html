@@ -1,0 +1,28 @@
+
+{% assign courses = site.data.data.sidebar.courses %}
+{% if courses %}
+<div class="courses-container container-block">
+
+  <h2 class="container-block-title">
+    {{ courses.title }}
+  </h2>
+
+  <ul class="list-unstyled courses-list">
+    {% for course in courses.info %}
+
+      {% if course.link %}
+      <li>
+        <li>Organization: {{ course.issuer }}</li>
+        <li>Course: <a href="{{ course.link }}"> {{ course.title }}</a></li>
+        <li>Issued: {{ course.time }}</li>
+      </li>
+      <br/>
+      {% else %}
+      <li>{{ course.item }}</li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+
+</div><!--//courses-->
+{% endif %}
